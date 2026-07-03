@@ -1,0 +1,5 @@
+INSERT INTO brands (...);
+
+INSERT INTO my_reviews (...);
+
+INSERT INTO wishlist (...);

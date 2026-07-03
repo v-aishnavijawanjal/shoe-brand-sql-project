@@ -1,0 +1,19 @@
+SHOW TABLES;
+
+SELECT * FROM brands;
+
+SELECT * FROM my_reviews;
+
+SELECT * FROM wishlist;
+
+SELECT b.brand_name, r.rating, r.opinion
+FROM brands b
+JOIN my_reviews r
+ON b.brand_id = r.brand_id;
+
+SELECT AVG(rating)
+FROM my_reviews;
+
+SELECT country, COUNT(*)
+FROM brands
+GROUP BY country;
